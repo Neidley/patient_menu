@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="col-md-12">
+    <table class="table">
+      <tr>
+        <th>name</th>
+        <th>prov</th>
+        <th>idnum</th>
+        <th>mr</th>
+        <th>insurance</th>
+        <th>address</th>
+        <th>city</th>
+        <th>st</th>
+        <th>phone</th>
+        <th>dob</th>
+        <th>admin</th>
+        <th>dc</th>
+      </tr>
+        <tr ng-repeat="patient in home.patients">
+          <td><a ui-sref="modal">{{patient.name}}</a></td>
+          <td>{{patient.prov}}</td>
+          <td>{{patient.idnum}}</td>
+          <td>{{patient.mr}}</td>
+          <td>{{patient.insurance}}</td>
+          <td>{{patient.address}}</td>
+          <td>{{patient.city}}</td>
+          <td>{{patient.st}}</td>
+          <td>{{patient.phone}}</td>
+          <td>{{patient.dob}}</td>
+          <td>{{patient.admin}}</td>
+          <td>{{patient.dc}}</td>
+        </tr>
+    </table>
+  </div>
+</div>

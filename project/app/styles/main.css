@@ -1,0 +1,13 @@
+th {
+  border-style: solid;
+  background-color: #c10b0b;
+  color: white;
+}
+
+td {
+  border-style: solid;
+}
+
+html {
+  font-family: sans-serif;
+}
