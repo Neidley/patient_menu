@@ -47,7 +47,7 @@ Break down the problem into manageable "User Stories" (normally I would git bran
 
 Clone this repository from your terminal with:
 
-`git clone [this project url]`
+`git clone https://github.com/Neidley/patient_menu.git`
 
 ## Configuration
 
